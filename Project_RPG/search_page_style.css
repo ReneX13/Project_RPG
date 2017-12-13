@@ -1,0 +1,173 @@
+	* {
+		box-sizing: border-box;
+	}
+
+	* {
+	  margin: 0%;
+	}
+
+/*CSS TO KEEP FOOTER DOWN&*/
+	html, body {
+	  height: 100%;
+	}
+
+	.page-wrap {
+	  min-height: 60%;	
+	}
+
+	.page-wrap:after {
+	  content: "";
+	  display: block;
+	}
+
+	.site-footer, .page-wrap:after {
+	  
+	}
+
+	.site-footer {
+	  //background: orange;
+	}
+/*######################################*/
+
+/*FOOTER AND HEADER*/
+	footer {
+		font-style: oblique;
+		padding: 1em;
+		color: white;
+		clear: left;
+		text-align: center;
+		height:20%;
+		font-size: 300%;
+		background: rgba(0, 0, 0, 0.8);	
+		border: 10px outset DarkBlue;
+		border-radius: 25px;
+		box-shadow: 0px -20px 50px 2px DarkBlue;
+		z-index:1;
+		position: relative;
+	}
+
+	header{
+		font-style: oblique;
+		padding: 1em;
+		color: white;
+		clear: left;
+		text-align: center;
+		background: orange;
+		height:20%;
+		font-size: 300%;
+		background: rgba(0, 0, 0, 0.8);	
+		border: 10px outset DarkRed;
+		border-radius: 25px;
+		box-shadow: 0px 20px 50px 2px DarkRed;
+		z-index:1;
+		position: relative;
+	}
+/*######################################*/
+
+/*ID's*/
+#nav1 {
+	//width: 50%;
+	//float: left;
+	margin: auto;
+	padding: 2% 2%;
+	//background-image: url("Box_1.png");
+	//background-repeat: no-repeat;
+
+	//background-size: 100%;
+	
+	//border: 50px ridge white;
+	z-index: 2;
+	position: relative;
+} 
+
+#div1 {
+	border: 50px solid;
+	border-image: url(Box_1.png) 30 stretch;
+	border-image-outset: 20px;
+	background: rgba(0, 0, 0, 0.6);	
+	margin: auto;
+	width:50%;
+	
+	color:LimeGreen;
+}
+/*######################################*/
+
+/*TABLE DESIGN*/
+thead {color:blue;}
+tbody {color:blue;}
+tfoot {color:red;}
+table{
+	border: 50px solid;
+	border-image: url(Box_1.png) 30 stretch;
+	border-image-outset: 20px;
+	background: rgba(0, 0, 0, 0.6);	
+	margin: auto;
+	//box-shadow: 0px 0px 50px 20px Black;
+}
+
+th{
+	//border: 7px groove white;
+}a
+
+td {
+	//border: 4px inset white;
+}
+
+tr:nth-child(even) {
+	//background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+	//background-color: #eeddd0;
+}
+/*######################################*/
+
+/*BODY*/
+body {
+	background-color: black;
+	background-image: url("BG_6.jpg");
+
+	background-size: contain%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*######################################*/
+
+/*Testing and example classes and id's*/
+#example1 {
+	
+	width: 50%;
+	float: left;
+	padding: 15px;
+}
+
+#num{
+	width: 10%
+}
+select{
+	width: 25%
+}
+#borderimg2 { 
+	border: 10px solid transparent;
+	padding: 15px;
+	//-webkit-border-image: url(Box_1.png) 30 stretch; /* Safari 3.1-5 */
+	//-o-border-image: url(Box_1.png) 30 stretch; /* Opera 11-12.1 */
+	border-image: url(Box_1.png) 30 stretch;
+}
+#fieldset1 {
+	background: rgba(0, 0, 0, 0.6);				
+}
+
+#legend1 {
+	color:rgb(0, 225, 0);
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+div{
+	//border: 4px dotted grey;
+	
+	
+}
